@@ -9,22 +9,30 @@
 		"type": "git",
 		"url": "git://github.com/antz29/node-verve.git"
 	},
+
    	"bugs": {
         	"email": "verve-bugs@antz29.com",
 	        "url": "http://github.com/antz29/node-verve/issues"
     	},
+
 	"engines": {
 		"node": ">=0.6.0"
 	},
+
 	"directories": {
         	"lib": "./src/lib"
 	},
+
 	"main" : "./src/lib/verve.js",
 
 	"dependencies": {
 		"configr" : ">=0.0.1",
 		"underscore" : ">=0.0.1",
-		"async" : ">=0.0.1"
+		"async" : ">=0.0.1",
+		"sockjs" : ">=0.0.1",
+		"connect" : ">=0.0.1",
+		"mongoose" : ">=0.0.1"
 	},
+
 	"devDependencies": {}
 }
